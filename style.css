@@ -1,0 +1,29 @@
+body,
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "logo"
+    "content";
+}
+
+.logo {
+  grid-area: logo;
+  min-height: 10vh;
+}
+
+.content {
+  grid-area: content;
+  text-align: center;
+  min-height: 90vh;
+  vertical-align: middle;
+}
